@@ -137,7 +137,7 @@ SearchedPage searchedPage=new SearchedPage();
                 //verifying actual message with expected message
                 Assert.assertEquals(actual,loadProperty.getValue("facebookMainPageHeader"),"didn't match the message");
                 //closing current window
-                driver.findElement(By.)
+
                 driver.close();
                 //moving to parent window or main window
                 driver.switchTo().window(parent);
