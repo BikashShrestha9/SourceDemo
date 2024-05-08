@@ -37,7 +37,7 @@ public class BrowserManager extends  Utility {
     }
     //closing the browser
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 
 
